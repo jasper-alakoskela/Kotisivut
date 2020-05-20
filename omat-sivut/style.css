@@ -1,0 +1,118 @@
+/* Style the body*/
+body{
+background-color: rgb(199, 199, 199);
+font-family: 'Fjalla One', sans-serif;
+font-size: large;
+}
+
+/* Header */
+.header{
+    padding: 50px;
+    text-align: center;
+    background-color: cornflowerblue;
+    margin: 15px;
+    color: cornsilk;
+    font-size: large;
+}
+
+.navbar{
+    background-color: rgb(66, 66, 66);
+    overflow: hidden;
+    margin: 15px;
+    padding: 18px;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Content */
+
+.content{
+    padding: 10px 15px 15px 15px;
+    border: 6px solid cornflowerblue;
+    margin: 10px 10px 10px 13px;
+    display: block;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    color: oldlace;
+    float: left;
+}
+.content a{
+    color: #93c01f;
+}
+
+.content img{
+    width: 250px;
+    height: 250px;
+}
+
+.blog{
+    border: 6px solid cornflowerblue;
+    overflow: hidden;
+    margin: 25px 13px 10px 800px;
+    padding: 10px 15px 25px 15px;
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    color: oldlace;
+}
+
+.blog img{
+    width: 397px;
+    height: 298px;
+    
+}
+
+/* Skateboarding */
+
+.skateboarding{
+    padding: 10px 15px 15px 15px;
+    border: 6px solid cornflowerblue;
+    margin: 100px 100px 100px 100px;
+    display: block;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    color: oldlace;
+}
+
+.skateboarding img{
+    width: 350px;
+    height: 200px;
+}
+
+
+.music{
+    padding: 10px 15px 15px 15px;
+    border: 6px solid cornflowerblue;
+    margin: 100px 100px 100px 100px;
+    display: block;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    color: oldlace;
+}
+
+.music img{
+    width: 358px;
+    height: 615,5px;
+}
+
+.media{
+    padding: 10px 15px 15px 15px;
+    border: 6px solid cornflowerblue;
+    margin: 100px 100px 100px 100px;
+    display: block;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    color: oldlace;
+}
+
+.media img{
+    width: 160px;
+    height: 160px;
+}
+

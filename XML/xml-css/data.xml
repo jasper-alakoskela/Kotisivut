@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+
+<data>
+    <viesti>
+        <lähettäjä>koira</lähettäjä>
+        <aihe>kana</aihe>
+        <teksti>söin kanasi sori );</teksti> 
+    </viesti>
+
+    <aika>
+        <päivä>13</päivä>
+        <kuukausi>7</kuukausi>
+        <vuosi>2011</vuosi>
+    </aika>
+    
+    <viesti>
+        <lähettäjä>Jaska</lähettäjä>
+        <aihe>Kissa</aihe>
+        <teksti>Löysin kissani lol moi moi moimoimoimoimoimoimoimoimoimoi</teksti> 
+    </viesti>
+    
+     <aika>
+        <päivä>9</päivä>
+        <kuukausi>12</kuukausi>
+        <vuosi>1999</vuosi>
+    </aika>
+</data>
