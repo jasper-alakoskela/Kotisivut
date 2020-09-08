@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html lang="fi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jasperin Koti-sivut</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="header">
-        <h1>Omat nettisivut</h1>
-        <p>Jasper Alakoskela</p>
+      <h1>Omat nettisivut</h1>
+      <p>Jasper Alakoskela</p>
     </div>
 
     <div class="navbar">
-        <a href="index.html">Koti</a>
-        <a href="harrastukset.html">Harrastukset</a>
-        <a href="some.html">Somet</a>
+      <a href="index.html">Koti</a>
+      <p id="somet" onmouseover="someFunktio()" onmouseout="">Somet</p>
+    </div>
+
+    <div id="somelista">
+        <ul></ul>
     </div>
 
     <div class="content">
-        <h1>Tietoa minusta</h1>
-        <p>Olen Jasper Alakoskela. <br>Olen syntynyt 13.7.2003.<br>Tällähetkellä opiskelen datanomi alaa <a href="https://www.esedu.fi/" target="_blank" >Etelä-Savon ammattiopistossa</a>.</p>
-        <img src="img/me.jpg" alt="Minä">
+      <h2>Tietoa minusta</h2>
+      <p>
+        Olen Jasper Alakoskela. <br />Olen syntynyt 13.7.2003.<br />Tällähetkellä
+        opiskelen datanomi alaa
+        <a href="https://www.esedu.fi/" target="_blank">Etelä-Savon ammattiopistossa</a>.
+        Olen Ohjelmistontuotannon puolella Otavankadulla. Käytän tällähetkellä koodaamiseen
+        <ul>
+            <a href="https://fi.wikipedia.org/wiki/HTML5">HTML5</a>
+            <a href="https://fi.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>
+            <a href="https://fi.wikipedia.org/wiki/JavaScript">JavaScript</a>
+        </ul>
+      </p>
     </div>
-    
-    <div class="blog">
-        <h1>Rottia!</h1>
-        <h2>8.5.2020</h2>
-        <img src="img/rotta1.jpg" alt="Rotta">
-        <p>Perjantaina kävin tyttöystäväni kanssa hakemassa Mikkelin Faunatarista kaksi rotan poikasta jotka nimesimme Vinskiksi ja Rontiksi. Molemmat ovat rotua punasilmäinen golden ja he ovat syntyneet 9.3.2020 ja oikeat nimet ovat Revontuli ja Joiku.</p>
-        <img src="img/rat.jpg" alt="Rotta">
-    </div>  
 
-    
+    <div class="harrastukset">
+      <h2>Harrastukset</h2>
+      <h3>Skeittaus</h3>
+      <p>
+        Skeittaus on rullalaudalla temppujen tekemistä, liikkumista ja
+        kaatumista. Skeittaamisesta on tullut tärkeä harrastus ja iso
+        mielenkiinnon kohde joka parantaa liikuntaa ja mielenterveyttä kun
+        onnistuu jossain. Skeittaamisessa on myös jännitys ja pelko mukana
+        varsinkin jos yrittää jotain uutta tai pelottavaa mutta kun siinä
+        onnistuu se on sen arvoista.
+        <a href="skeittaus.html">Lisää skeittaamisestani</a>
+      </p>
+      <h3>Musiikki</h3>
+      <p>
+        Olen alkanut harrastamaan musiikkia noin 14 vuotiaana kun kiinnostuin
+        rock ja metal musiikista ja ostin itselleni ensimmäisen sähkökitaran ja
+        vahvistimen ja aloin sillä opettelemaan. Olin opetuksessa myös vuoden
+        jossa opin paljon. Nykyään tykkään soittaa melkein mitä vaan mikä osuu
+        käteen.
+      </p>
+      <p>
+        Nykyään kuuntelen kaikenlasita musiikkia ja tykkään myös soittaa eri
+        musiikki genrejä. Haluaisin myös alkaa soittamaan muita instrumentteja
+        <a href="musiikki.html">Lisää musiikista</a>
+      </p>
+    </div>
 
-</body>
+    <script src="kotisivut.js"></script>
+  </body>
 </html>

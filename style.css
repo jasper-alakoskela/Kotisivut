@@ -1,118 +1,78 @@
 /* Style the body*/
-body{
-background-color: rgb(199, 199, 199);
-font-family: 'Fjalla One', sans-serif;
-font-size: large;
+body {
+  background-color: #d5d6d2;
+  font-family: "Fjalla One", sans-serif;
+  font-size: large;
 }
 
 /* Header */
-.header{
-    padding: 50px;
-    text-align: center;
-    background-color: cornflowerblue;
-    margin: 15px;
-    color: cornsilk;
-    font-size: large;
+.header {
+  padding: 50px;
+  text-align: center;
+  background-color: #336b87;
+  margin: 15px;
+  color: cornsilk;
+  font-size: large;
 }
 
-.navbar{
-    background-color: rgb(66, 66, 66);
-    overflow: hidden;
-    margin: 15px;
-    padding: 18px;
+.navbar {
+  background-color: #2f2e33;
+  overflow: hidden;
+  margin: 15px 50px 15px 50px;
+  padding: 18px;
 }
 
-.navbar a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+.navbar a {
+  float: left;
+  display: block;
+  color: cornsilk;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
+#somet {
+  float: left;
+  color: cornsilk;
+  margin-top: 15px;
+}
+
+#somelista {
+  height: 50px;
+  width: 20px;
+  background-color: #2f2e33;
+  color: cornsilk;
+}
 /* Content */
 
-.content{
-    padding: 10px 15px 15px 15px;
-    border: 6px solid cornflowerblue;
-    margin: 10px 10px 10px 13px;
-    display: block;
-    text-align: center;
-    background-color: rgb(66, 66, 66);
-    color: oldlace;
-    float: left;
+.content {
+  border: 6px solid #336b87;
+  display: block;
+  text-align: center;
+  background-color: #2f2e33;
+  color: cornsilk;
+  float: left;
+  position: static;
+  height: 400px;
+  width: 500px;
+  margin-left: 50px;
 }
-.content a{
-    color: #93c01f;
-}
-
-.content img{
-    width: 250px;
-    height: 250px;
+.content a {
+  color: #336b87;
 }
 
-.blog{
-    border: 6px solid cornflowerblue;
-    overflow: hidden;
-    margin: 25px 13px 10px 800px;
-    padding: 10px 15px 25px 15px;
-    background-color: rgb(66, 66, 66);
-    text-align: center;
-    color: oldlace;
+.harrastukset {
+  border: 6px solid #336b87;
+  display: block;
+  text-align: center;
+  background-color: #2f2e33;
+  color: cornsilk;
+  height: 500px;
+  width: 1000px;
+  float: right;
+  margin-right: 50px;
 }
 
-.blog img{
-    width: 397px;
-    height: 298px;
-    
+.harrastukset a {
+  color: #336b87;
 }
-
-/* Skateboarding */
-
-.skateboarding{
-    padding: 10px 15px 15px 15px;
-    border: 6px solid cornflowerblue;
-    margin: 100px 100px 100px 100px;
-    display: block;
-    text-align: center;
-    background-color: rgb(66, 66, 66);
-    color: oldlace;
-}
-
-.skateboarding img{
-    width: 350px;
-    height: 200px;
-}
-
-
-.music{
-    padding: 10px 15px 15px 15px;
-    border: 6px solid cornflowerblue;
-    margin: 100px 100px 100px 100px;
-    display: block;
-    text-align: center;
-    background-color: rgb(66, 66, 66);
-    color: oldlace;
-}
-
-.music img{
-    width: 358px;
-    height: 615,5px;
-}
-
-.media{
-    padding: 10px 15px 15px 15px;
-    border: 6px solid cornflowerblue;
-    margin: 100px 100px 100px 100px;
-    display: block;
-    text-align: center;
-    background-color: rgb(66, 66, 66);
-    color: oldlace;
-}
-
-.media img{
-    width: 160px;
-    height: 160px;
-}
-
