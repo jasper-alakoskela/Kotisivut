@@ -37,7 +37,7 @@ body {
   margin-top: 15px;
 }
 
-#somelista {
+somelista {
   height: 50px;
   width: 20px;
   background-color: #2f2e33;
@@ -71,8 +71,14 @@ body {
   width: 1000px;
   float: right;
   margin-right: 50px;
+  padding-bottom: 80px;
 }
 
 .harrastukset a {
   color: #336b87;
+}
+
+.hobby img {
+  height: 35px;
+  width: 35px;
 }
