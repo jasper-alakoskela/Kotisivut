@@ -31,18 +31,15 @@ body {
   text-decoration: none;
 }
 
-#somet {
-  float: left;
+#index {
+  float: right;
+  display: block;
   color: cornsilk;
-  margin-top: 15px;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
-somelista {
-  height: 50px;
-  width: 20px;
-  background-color: #2f2e33;
-  color: cornsilk;
-}
 /* Content */
 
 .content {
@@ -59,6 +56,12 @@ somelista {
 }
 .content a {
   color: #336b87;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.content li {
+  list-style-type: none;
 }
 
 .harrastukset {
@@ -78,7 +81,21 @@ somelista {
   color: #336b87;
 }
 
-.hobby img {
+.harrastukset img {
   height: 35px;
   width: 35px;
+}
+
+.some {
+  margin-left: 70px;
+}
+
+.some li {
+  list-style-type: none;
+}
+
+.some a {
+  text-decoration: none;
+  color: #336b87;
+  font-size: x-large;
 }
