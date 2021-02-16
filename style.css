@@ -1,22 +1,26 @@
 /* Style the body*/
 body {
-  background-color: #d5d6d2;
+  background-color: #f3cdb0;
   font-family: "Fjalla One", sans-serif;
   font-size: large;
 }
 
 /* Header */
 .header {
+  border: 10px solid #fcc0bf;
+  border-radius: 5px;
   padding: 50px;
   text-align: center;
-  background-color: #336b87;
+  background-color: #50231d;
   margin: 15px;
   color: cornsilk;
   font-size: large;
 }
 
 .navbar {
-  background-color: #2f2e33;
+  border: 10px solid #fcc0bf;
+  border-radius: 5px;
+  background-color: #50231d;
   overflow: hidden;
   margin: 15px 50px 15px 50px;
   padding: 18px;
@@ -42,90 +46,47 @@ body {
 
 /* Content */
 
-.content {
-  border: 6px solid #336b87;
+.basics {
+  border: 10px solid #fcc0bf;
+  border-radius: 5px;
   display: block;
   text-align: center;
-  background-color: #2f2e33;
+  background-color: #50231d;
   color: cornsilk;
-  float: left;
-  height: 400px;
-  width: 500px;
-  margin-left: 50px;
+  height: 350px;
+  width: 1300px;
+  margin: auto;
 }
-.content a {
-  color: #336b87;
+.basics a {
+  color: #fcc0bf;
   text-decoration: none;
   font-size: 20px;
 }
 
-.content li {
+.basics li {
   list-style-type: none;
 }
 
-.mobilecontent {
-  border: 6px solid #336b87;
-  display: none;
+/*Pelit*/
+
+.pelit {
+  border: 10px solid #fcc0bf;
+  border-radius: 5px;
   text-align: center;
-  background-color: #2f2e33;
   color: cornsilk;
-  float: left;
   height: 400px;
   width: 500px;
-  margin-left: 50px;
-}
-.mobilecontent a {
-  color: #336b87;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.mobilecontent li {
-  list-style-type: none;
-}
-
-.harrastukset {
-  border: 6px solid #336b87;
+  margin: auto;
   display: block;
-  text-align: center;
-  background-color: #2f2e33;
-  color: cornsilk;
-  height: 500px;
-  width: 1000px;
-  float: right;
-  margin-right: 50px;
-  padding-bottom: 80px;
 }
 
-.harrastukset a {
-  color: #336b87;
+.pelit img {
+  height: 400px;
+  width: 500px;
+  margin: auto;
 }
 
-.harrastukset img {
-  height: 35px;
-  width: 35px;
-}
-
-.mobileharrastukset {
-  display: none;
-  border: 6px solid #336b87;
-  text-align: center;
-  background-color: #2f2e33;
-  color: cornsilk;
-  height: 500px;
-  width: 1000px;
-  margin-right: 50px;
-  padding-bottom: 80px;
-}
-
-.mobileharrastukset a {
-  color: #336b87;
-}
-
-.mobileharrastukset img {
-  height: 35px;
-  width: 35px;
-}
+/*Some*/
 
 .some {
   margin-left: 70px;
@@ -137,79 +98,6 @@ body {
 
 .some a {
   text-decoration: none;
-  color: #336b87;
+  color: #fcc0bf;
   font-size: x-large;
-}
-
-/* Responsive */
-@media screen and (max-width: 1670px) {
-  .mobileharrastukset {
-    display: inline-block;
-    margin: 10px 300px 5px 300px;
-  }
-  .mobilecontent {
-    display: inline-block;
-    margin: 10px 300px 5px 550px;
-  }
-  .content {
-    display: none;
-  }
-  .harrastukset {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1350px) {
-  .mobileharrastukset {
-    display: inline-block;
-    margin: 10px 20px 5px 100px;
-  }
-  .mobilecontent {
-    display: inline-block;
-    margin: 10px 300px 5px 350px;
-  }
-  .content {
-    display: none;
-  }
-  .harrastukset {
-    display: none;
-  }
-}
-
-
-
-@media screen and (max-width: 1266px) {
-  .mobileharrastukset {
-    display: inline-block;
-    margin: 10px 120px 5px 0px;
-  }
-  .mobilecontent {
-    display: inline-block;
-    margin: 10px 10px 5px 375px;
-  }
-  .content {
-    display: none;
-  }
-  .harrastukset {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 938px) {
-  .mobileharrastukset {
-    display: inline-block;
-    margin: 10px 100px 5px 80px;
-    width: 700px;
-    padding-bottom: 140px;
-  }
-  .mobilecontent {
-    display: inline-block;
-    margin: 10px 300px 5px 180px;
-  }
-  .content {
-    display: none;
-  }
-  .harrastukset {
-    display: none;
-  }
 }
