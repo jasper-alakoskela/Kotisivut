@@ -1,44 +1,53 @@
 /* Style the body*/
 body {
-  background-color: #f3cdb0;
+  background-image: url(img/background.jpg);
   font-family: "Fjalla One", sans-serif;
   font-size: large;
+  
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
 /* Header */
 .header {
-  border: 10px solid #fcc0bf;
+  border: 10px solid #000000;
   border-radius: 5px;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
-  background-color: #50231d;
+  background-color: #137946;
   margin: 15px;
-  color: cornsilk;
+  color: rgb(0, 0, 0);
   font-size: large;
+  width: 1000px;
 }
 
 .navbar {
-  border: 10px solid #fcc0bf;
+  border: 10px solid #000000;
   border-radius: 5px;
-  background-color: #50231d;
-  overflow: hidden;
+  background-color: #9b2020;
   margin: 15px 50px 15px 50px;
   padding: 18px;
+
 }
 
 .navbar a {
   float: left;
   display: block;
-  color: cornsilk;
+  color: rgb(23, 56, 128);
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 #index {
   float: right;
   display: block;
-  color: cornsilk;
+  color: rgb(23, 56, 128);
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -47,49 +56,61 @@ body {
 /* Content */
 
 .basics {
-  border: 10px solid #fcc0bf;
+  border: 10px solid #000000;
   border-radius: 5px;
   display: block;
   text-align: center;
-  background-color: #50231d;
-  color: cornsilk;
+  background-color: #ffc526;
+  color: rgb(0, 0, 0);
   height: 350px;
-  width: 1300px;
+  width: 800px;
   margin: auto;
 }
 .basics a {
-  color: #fcc0bf;
+  color: #bd3310;
   text-decoration: none;
   font-size: 20px;
+  font-weight: bolder;
 }
 
 .basics li {
   list-style-type: none;
 }
 
-/*Pelit*/
+/*sovellukset*/
 
-.pelit {
-  border: 10px solid #fcc0bf;
-  border-radius: 5px;
-  text-align: center;
-  color: cornsilk;
-  height: 400px;
-  width: 500px;
+.apps {
   margin: auto;
-  display: block;
+  width: 800px;
+  height: 800px;
 }
 
-.pelit img {
-  height: 400px;
-  width: 500px;
-  margin: auto;
+.app {
+  border-radius: 15px;
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  border: solid 10px black;
+}
+
+.app img {
+  height: 350px;
+  width: 350px;
 }
 
 /*Some*/
 
 .some {
-  margin-left: 70px;
+  border: 10px solid #000000;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  background-color: #ffc526;
+  color: rgb(0, 0, 0);
+  height: 250px;
+  width: 400px;
+  margin: auto;
 }
 
 .some li {
@@ -97,7 +118,8 @@ body {
 }
 
 .some a {
+  color: #bd3310;
   text-decoration: none;
-  color: #fcc0bf;
-  font-size: x-large;
+  font-size: 20px;
+  font-weight: bolder;
 }
